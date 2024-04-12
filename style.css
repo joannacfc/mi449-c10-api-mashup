@@ -1,0 +1,69 @@
+h1, h2 {
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: x-large;
+    margin-top: 60px;
+}
+
+h2 {
+    font-size: medium;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#moviePoster {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+img {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+#movieDetails {
+    font-size: small;
+    font-weight: lighter;
+    display: grid;
+    gap: 0;
+}
+
+#movieDetails p {
+    margin: 0;
+    padding: 2px 0;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+    width: 240px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    background-color: darkolivegreen;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+button:hover {
+    background-color: brown;
+}
